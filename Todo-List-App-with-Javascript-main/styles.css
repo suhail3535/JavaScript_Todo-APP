@@ -9,8 +9,8 @@
 body {
     height: 100vh;
     /* background-color: whitesmoke; */
-background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+background-color: rgb(250,250,250);
+/* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
 
     display: grid;
     place-items: center;
@@ -32,12 +32,11 @@ button {
     height: auto;
     min-height: 500px;
     padding: 1.2rem;
-    /* background: #2b304d; */
-    background: rgb(63, 94, 251);
+     border: 0px solid yellow;
     background: radial-gradient(
         circle,
-        rgba(63, 94, 251, 1) 0%,
-        rgba(252, 70, 107, 1) 100%
+        rgba(220, 240, 236, 0.721) 0%,
+        rgba(201, 207, 206, 0.538) 100%
     );
 
     border-radius: 14px;
@@ -60,8 +59,8 @@ form input {
     background: linear-gradient(
         90deg,
         rgba(131, 58, 180, 1) 0%,
-        rgba(253, 29, 29, 1) 50%,
-        rgba(252, 176, 69, 1) 100%
+        rgb(224, 100, 100) 50%,
+        rgb(223, 169, 93) 100%
     );
     border-radius: var(--border-radius);
     font-size: 16px;
@@ -83,7 +82,7 @@ form button {
         90deg,
         rgba(88, 58, 180, 1) 0%,
         rgba(29, 67, 253, 1) 50%,
-        rgba(128, 252, 69, 1) 100%
+        rgb(139, 200, 111) 100%
     );
 }
 
@@ -153,4 +152,8 @@ form button {
     );
 
     margin-left: auto;
+}
+
+#h{
+    font-family: "Bree Serif", serif;
 }
