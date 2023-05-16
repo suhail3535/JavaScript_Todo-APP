@@ -7,10 +7,9 @@
 }
 
 body {
-    height: 100vh;
-    /* background-color: whitesmoke; */
-background-color: rgb(250,250,250);
-/* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    height: auto;
+    border: 0px solid red;
+    background-color: rgb(250, 250, 250);
 
     display: grid;
     place-items: center;
@@ -26,20 +25,20 @@ button {
 }
 
 .container {
-    --border-radius: 6px;
+    border-radius: 6px;
     width: 100%;
     max-width: 550px;
     height: auto;
     min-height: 500px;
-    padding: 1.2rem;
-     border: 0px solid yellow;
+    padding: 30px;
+    border: 0px solid yellow;
     background: radial-gradient(
         circle,
         rgba(220, 240, 236, 0.721) 0%,
         rgba(201, 207, 206, 0.538) 100%
     );
 
-    border-radius: 14px;
+margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
@@ -154,6 +153,7 @@ form button {
     margin-left: auto;
 }
 
-#h{
+#h {
     font-family: "Bree Serif", serif;
+    margin-top: 30px;
 }
